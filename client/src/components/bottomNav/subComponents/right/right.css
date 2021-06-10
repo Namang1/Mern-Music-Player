@@ -1,0 +1,10 @@
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    width: 15rem;
+}
+.right > input[type='range'] {
+    width: 6.5rem;
+}

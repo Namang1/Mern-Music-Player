@@ -1,0 +1,17 @@
+.signupLeftBody__illustration{
+    padding: 2% 0% 0%;
+}
+.signupLeftBody__illustration > img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+@media only screen and (max-width:1000px){
+    .signupLeftBody__illustration > img {
+        opacity: 0.2;
+        z-index: -999;
+        display: none;
+    }
+ }
+ @media only screen and (max-width:500px){
+ }

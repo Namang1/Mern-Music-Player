@@ -1,0 +1,10 @@
+.vol input[type=range]::-webkit-slider-thumb {
+  color: #f54c4f;
+  background-color: #f54c4f;
+}
+@media only screen and (max-width: 400px)
+{
+  .vol{
+    width: 85%;
+  }
+}

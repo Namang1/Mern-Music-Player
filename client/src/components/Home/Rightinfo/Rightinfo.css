@@ -1,0 +1,208 @@
+.avishka {
+	background-color: #0d0d0d;
+	color: #fff;
+	width: 60%;
+	padding: 2rem;
+	margin: 2rem auto;
+}
+
+.css_animation {
+background:transparent;
+overflow: hidden;
+padding-top: 30px;
+width: 90%;
+margin: 2rem;
+float: right;
+border-radius: 20px;
+}
+.css_animation .wrapper {
+	margin: auto;
+	position: relative;
+	width: 70%;
+	padding-top: 50%;
+	overflow: hidden;
+	padding-bottom: 0;
+}
+.song {
+	color:#f6d365;
+    font-size: 3rem;
+	text-align: center;
+    background: linear-gradient(to right, #f9d423 10%, #ff4e50 40%, #f9d423 80%, #ff4e50 100%);
+    background: -webkit-linear-gradient(to right, #f9d423 10%, #ff4e50 40%, #f9d423 80%, #ff4e50 100%);
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.css_animation .wrapper div {
+	position: absolute;
+	margin-top: -17%;
+	height: 34%;
+	width: 1%;
+	border-radius: 20px;
+	top: 30%;
+	background-color: red;
+	margin-left: 2px;
+
+}
+.css_animation .wrapper div:nth-of-type(1) {
+	animation: prop 17s 0.0s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(2) {
+	animation: prop 17s -16.225s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(3) {
+	animation: prop 17s -15.455s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(4) {
+	animation: prop 17s -14.622s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(5) {
+	animation: prop 17s -13.909s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(6) {
+	animation: prop 17s -13.136s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(7) {
+	animation: prop 17s -12.364s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(8) {
+	animation: prop 17s -11.591s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(9) {
+	animation: prop 17s -10.818s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(10) {
+	animation: prop 17s -10.045s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(11) {
+	animation: prop 17s -9.243s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(12) {
+	animation: prop 17s -8.500s linear infinite;
+} 
+.css_animation .wrapper div:nth-of-type(13) {
+	animation: prop 17s -7.727s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(14) {
+	animation: prop 17s -6.955s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(15) {
+	animation: prop 17s -6.182s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(16) {
+	animation: prop 17s -5.409s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(17) {
+	animation: prop 17s -4.636s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(18) {
+	animation: prop 17s -3.864s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(19) {
+	animation: prop 17s -3.029s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(20) {
+	animation: prop 17s -2.318s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(21) {
+	animation: prop 17s -1.545s linear infinite;
+}
+.css_animation .wrapper div:nth-of-type(22) {
+	animation: prop 17s -0.773s linear infinite;
+}
+@keyframes prop {
+	0% {
+		background-color: rgba(235, 100, 22, 0.945);
+		left: 0%;
+	}
+	5% {
+		background-color: #e9e51b;
+	}
+	100% {
+		height: 10%;
+		margin-top: -5%;
+		background-color: #97730e;
+	 }
+	 10% {
+		height: 10%;
+		margin-top: -5%;
+		background-color: #f3bf5e;
+	 }
+	20% {
+		height: 34%;
+		margin-top: -17%;
+		background-color: yellow;
+	 }
+	 30% {
+		height: 10%;
+		margin-top: -5%;
+		background-color: #f12d0b;
+	 }
+	40% {
+		height: 34%;
+		margin-top: -17%;
+		background-color: yellow;
+	 }
+	50% {
+		height: 10%;
+		margin-top: -5%;
+		background-color: #b9f331;
+	 }
+	60% {
+		height: 34%;
+		margin-top: -17%;
+		background-color: rgb(241, 227, 18);
+	 }
+	70% {
+		height: 10%;
+		margin-top: -5%;
+		background-color: yellow;
+	 }
+	75% {
+		background-color: rgb(228, 21, 55);
+	}
+	80% {
+		height: 34%;
+		margin-top: -17%;
+		background-color: yellow;
+	 }
+	85% {
+		background-color: orange;
+
+	}
+	90% {
+       height: 10%;
+	   margin-top: -5%;
+	   background-color: yellow;
+	}
+	95% {
+		background-color: rgb(255, 0, 34);
+	}
+	100% {
+		left: 100%;
+		height: 34%;
+		background:#f14e64;
+		margin-top: -17%;
+	}
+}
+@media only screen and (max-width : 500px){
+	.song{
+		font-size: 2rem;
+	}
+	.css_animation{
+		width: 100%;
+		padding-left: 20%;
+	}
+	
+}
+@media only screen and (max-width : 325px){
+	.song{
+		font-size: 1.5rem;
+	}
+	.css_animation{
+		width: 100%;
+		padding-left: 35%;
+		padding-top: 50%;
+	}
+	
+}

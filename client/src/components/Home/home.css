@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');  
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.volstyle{
+border:none;
+height:10px;
+width: 95%;
+box-shadow: none;
+appearance: none;
+height:3px;
+background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+.topnav{
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    height: 5%;
+    width: 100vw;
+    z-index: 5;
+    position: fixed;
+}
+.cendiv{
+    height: 85%;
+}
+.botdiv{
+    margin-top: 1rem;
+    position: fixed;
+}
+.main-content{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.bottomNav {
+  z-index: 1000 !important;
+  background-color: #080808;
+}
+.custom-black {
+  background-color: #080808 !important;
+}
+.log{
+  background-color: black;
+  border-radius: 6px;
+  color: #ff4e50;
+  font-weight: 700;
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  
+}
+.username {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+.userinfotitle{
+  color : tomato;
+
+}
+.userinfo{
+  color : white;
+  display: inline;
+}
+
+@media only screen and (min-width : 480px){
+    .main-content{
+            margin-left: 14%;
+    }
+  } 
+@media only screen and (min-width : 927px){
+    .main-content{
+            margin-left: 24%;
+    }
+    .topinfotop{
+      display: none;
+    }
+  }
+  @media only screen and (min-width : 1200px){
+    .main-content{
+            margin-left: 16%;
+    }
+  }      
+@media only screen and (max-width : 576px){
+    .volstyle{
+            width: 50%;
+            margin-left: 25%;
+    }
+    .vol{
+            justify-content: center;
+    }
+    .log{
+      font-size: 0.8rem;
+    }
+    .username {
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+  }
+@media only screen and (max-width : 375px){
+  .topinfotop1{
+    font-size: 1rem !important;
+  }
+  .log{
+    font-size: 0.6rem;
+  }
+  .username {
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+  }
+  @media only screen and (max-width : 285px){
+    .topinfotop1{
+      font-size: 0.8rem !important;
+    }
+    .topinfotop2{
+      font-size: 0.8rem !important;
+    }    
+    }      
+  /* .player__div {
+    backdrop-filter: blur(7px);
+    background-color: rgba(50, 49, 47, 0.35);
+  } */
+  

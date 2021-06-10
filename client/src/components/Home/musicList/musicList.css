@@ -1,0 +1,47 @@
+.musicList__card__container {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: auto;
+  align-items: center;
+}
+.musicList h1, .profileh1 {
+    color:#f6d365;
+    font-size: 4rem !important;
+    background: linear-gradient(to right, #f9d423 10%, #ff4e50 40%, #f9d423 80%, #ff4e50 100%);
+    background: -webkit-linear-gradient(to right, #f9d423 10%, #ff4e50 40%, #f9d423 80%, #ff4e50 100%);
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.para {
+    /* writing-mode: vertical-lr; */
+    /* position: relative; */
+    /* top: 25rem; */
+    color:#f6d365;
+}
+.musicList {
+    padding: 0 1rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+  padding-bottom: 8rem;
+}
+@media screen and (max-width: 1000px) {
+  .musicList {
+    margin-top: 2rem;
+  }
+  .musicList h1 {
+    font-size: 3rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .musicList h1 {
+    font-size: 2rem !important;
+  }
+}

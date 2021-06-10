@@ -1,0 +1,16 @@
+.control-panel {
+  -webkit-text-stroke-width: 90%;
+  padding: 0px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer {
+  font-size: 0.7rem;
+  font-weight: 1000;
+  color: rgb(255, 255, 255);
+  padding-bottom: 2%;
+}

@@ -1,0 +1,68 @@
+.signupLeftBody {
+    padding-left: 25%;
+    padding-top: 6rem;
+    /* flex-direction: column; */
+    /* text-align: left; */
+    /* background-color: #0D0D0D; */
+}
+.signupLeftBody h1 {
+    /* color: #56CDD3 !important; */
+    background: -webkit-linear-gradient(#0cfaee, #0981f1, #03a2ad);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 500%;
+    text-align: left;
+    margin: 0;
+}
+.signupLeftBody p {
+    color:  #0981f1;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.signup__text {
+    position: relative;
+    color:  #0981f1 !important;
+    font-size: 5.5rem;
+    text-align: left;
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .signup__text span {
+    background: linear-gradient(#0cfaee, #0981f1, #03a2ad);
+
+    
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+    font-size: 5.5rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
+@media only screen and (max-width:990px){
+    .signupLeftBody {
+        padding-left: 25%;
+        padding-top: 6rem;
+    }
+ }
+ @media only screen and (max-width:480px){
+    .signupLeftBody {
+        padding-left: 10%;
+        padding-top: 2rem;
+        /* flex-direction: column; */
+        /* text-align: left; */
+        /* background-color: #0D0D0D; */
+    }
+ }

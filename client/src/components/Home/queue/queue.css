@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+/*navbar ends  */
+.main {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+  overflow: scroll;
+  background-size: cover;
+  width: 100%;
+}
+.Queue {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.heading,.heading2 {
+  color:#e7900e;
+  position: fixed;
+  width: 100vw;
+  top: 5%;
+  height: 10%; 
+  margin-bottom: 5%;
+  font-size: 4rem !important;
+  background-color: black;
+  /* background: linear-gradient(to right, #f9d423 10%, #ff4e50 40%, #f9d423 80%, #ff4e50 100%);
+  background: -webkit-linear-gradient(to right, #f9d423 10%, #ff4e50 40%, #f9d423 80%, #ff4e50 100%);
+  background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-fill-color: transparent; */
+}
+.queuelist{
+  margin-top: 18%;
+  padding-bottom: 15%;
+}
+.Queue__list__heading {
+  width: 100%;
+  padding-right: 2rem;
+  color: white;
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+.Queue__list ul li {
+  padding: 1rem;
+  list-style-type: none;
+}
+.active{
+  border-left : solid 5px #ff4e50;
+}
+@media only screen and (max-width : 929px){
+  .heading{
+    font-size: 3rem !important;
+  }
+  .queuelist{
+    padding-bottom: 20%;
+  }
+}
+@media only screen and (max-width : 840px){
+  .queuelist{
+    padding-top: 1%;
+  }
+}
+@media only screen and (max-width : 740px){
+  .heading,.heading2{
+    font-size: 3rem !important;
+  }
+  .queuelist{
+    padding-top: 10%;
+  }
+}
+@media only screen and (max-width : 600px){
+  .heading,.heading2{
+    padding-top : 4%;
+    font-size: 2.2rem !important;
+  }
+  .queuelist{
+    padding-top: 16%;
+  }
+}
+@media only screen and (max-width : 330px){
+  .heading,.heading2{
+    font-size: 1.8rem !important;
+    padding-top : 2%;
+    height: 7%;
+  }
+  .queuelist{
+    padding-top: 16%;
+  }
+}
+@media only screen and (max-width : 250px){
+  .queuelist{
+    padding-top: 20%;
+  }
+}

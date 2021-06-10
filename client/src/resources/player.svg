@@ -1,0 +1,19 @@
+<svg 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve">
+
+<g id="armGroup">
+	<path id="arm" fill="none" stroke="#9F978D" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" d="M398.5,159v29c0,0-5.7,11.2-6.4,15.2
+		s-4.3,16.2,7.6,30.1s81.7,93.9,85.5,99.4c3.7,5.5,5.1,8.7,3.4,20.2"/>
+	<circle id="balance" fill="#CCCBCB" cx="396.5" cy="188" r="15"/>
+	<path id="stylus" fill="tomato" d="M489.9,367.5l-11.5-1.1c-2.2-0.2-3.8-2.2-3.6-4.4l1.5-15.9c0.2-2.2,2.2-3.8,4.4-3.6
+		l11.5,1.1c2.2,0.2,3.8,2.2,3.6,4.4l-1.5,15.9C494,366.1,492.1,367.7,489.9,367.5z"/>
+</g>
+
+ 
+<g id="circleDragger" opacity="0">  
+  <circle cx="396.5" cy="188" r="190" fill="rgba(89,89,89,0.2)" stroke="red"/>
+  <rect id="dragger" x="472" y="338" fill="#EF2572" width="26" height="36" opacity="1"/>   
+</g>
+  <text id="info" x="50%" y="150"></text> 
+</svg>

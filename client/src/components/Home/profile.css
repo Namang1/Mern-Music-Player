@@ -1,0 +1,63 @@
+.profileh1{
+	color: white;
+}
+.profile {
+	width: 60%;
+}
+.card1 {
+	border-right: 2px dashed rgb(37, 37, 37);
+}
+.card2 {
+	text-align: left;
+	padding-left: 2rem;
+}
+.userinfotitle {
+	color: rgb(255, 153, 0);
+}
+.userinfo {
+	color: white;
+}
+.profileCard {
+	height: auto;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+	background-color: #0d0d0d;
+	box-shadow: -1rem 0 3rem #000;
+	transition: 0.4s ease-out;
+	left: 0px;
+	border-radius: 20px;
+	/* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); */
+	border: 2px solid rgb(184, 145, 61);
+			 
+}
+.profileCard:hover {
+	transform: translateY(-20px);
+	transition: 0.4s ease-out;
+  }
+
+@media only screen and (max-width : 1439px){
+	.profileCard {
+		display: flex;
+		flex-direction: column;
+	}
+	.card1 {
+		border-right: none;
+		padding-bottom: 1rem;
+	}
+	.card2 {
+		padding-left: 0;
+	}
+	.profileh1{
+		margin-top: 10%;
+	}
+}
+@media only screen and (max-width : 480px){
+	.profile {
+		width:100%;
+	}
+
+
+}

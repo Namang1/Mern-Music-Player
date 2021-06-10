@@ -1,0 +1,13 @@
+.bottomNav {
+    background-color: #0e0d0db9;
+    color:#fff;
+    display: flex;
+    position: fixed;
+    justify-content: stretch;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5.6rem;
+    padding: 1rem;
+}

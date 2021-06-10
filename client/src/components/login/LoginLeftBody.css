@@ -1,0 +1,105 @@
+.loginleftbody {
+    padding-left: 5%;
+    padding-top: 6rem;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    /* flex-direction: column; */
+    /* text-align: left; */
+    /* background-color: #0D0D0D; */
+}
+.loginleftbody h1 {
+    /* color: #56CDD3 !important; */
+    background: -webkit-linear-gradient(#0cfaee, #0981f1, #03a2ad);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1000%;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    margin-left: 20%;
+    padding-top: 50%;
+}
+.ptt-2{
+   text-align: center;
+   margin-left: 20%;
+   width: 100%;
+   color: white;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#img{
+    opacity: 0.2;
+    position: absolute;
+}
+#content{
+    position: absolute;
+    top:0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+@media only screen and (max-width:1000px){
+    .loginleftbody {
+        padding-left: 25%;
+        padding-top: 6rem;
+    }
+    .loginleftbody h1 {
+        /* color: #56CDD3 !important; */
+        font-size: 700%;
+        width: 100%;
+        text-align: center;
+        z-index: 2;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .leftbb{
+        position: none;
+    }
+    #content{
+        position: none;
+        padding-left: 35%;
+    }
+ }
+ @media only screen and (max-width:1000px){
+    #content{
+        position: none;
+        padding-left: 10%;
+    }
+ }
+ @media only screen and (max-width:750px){
+    .loginleftbody {
+        padding-left: 20%;
+    } 
+ }
+ @media only screen and (max-width:600px){
+    .loginleftbody h1{
+        padding-top: 15%;
+    }
+    #img{
+        display: none;
+    }
+ }
+ @media only screen and (max-width:480px){
+    .loginleftbody {
+        padding-left: 10%;
+        padding-top: 6rem;
+        /* flex-direction: column; */
+        /* text-align: left; */
+        /* background-color: #0D0D0D; */
+    }
+    
+    .ptt-2{
+        margin-left: 0;
+    }
+    .loginleftbody h1{
+        font-size: 650%;
+    }
+ }
+ @media only screen and (max-width:300px){
+    .loginleftbody h1{
+        font-size: 500%;
+    }
+ } 

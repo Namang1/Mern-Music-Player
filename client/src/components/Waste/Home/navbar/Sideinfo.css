@@ -1,0 +1,64 @@
+#div4{
+    margin-top: 10%;
+    height: 100%;
+    width: 80%;
+    background-color:none;
+    border-style:solid;
+    border-color:none;
+    border-radius:5%;
+    float:left;
+    color:black;
+    background: #ec008c;
+    /* background-color: #045de9; */
+background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+
+/* background: linear-gradient(to bottom, #fc6767, #ec008c);
+//background: linear-gradient(to bottom,#fc6767, #ec008c);
+//background: linear-gradient(270deg, rgba(195,255,240,1) 0%, rgba(0,255,179,1) 40%, rgba(0,254,255,1) 100%);
+//background: linear-gradient(180deg, rgba(255,237,93,1) 0%, rgba(255,45,255,1) 42%, rgba(255,50,50,1) 100%);
+//background: linear-gradient(180deg, rgba(255,242,142,1) 0%, rgba(255,85,231,1) 30%, rgba(255,102,102,1) 100%);
+//background: linear-gradient(180deg, rgba(255,242,142,1) 0%, rgba(255,109,223,1) 30%, rgba(255,102,177,1) 68%, rgba(255,55,55,1) 100%);
+//background: linear-gradient(180deg, rgba(255,50,50,1) 0%, rgba(255,114,224,1) 52%, rgba(255,44,44,1) 100%);
+//background: linear-gradient(to bottom, #7700aa, #8800ff);     */
+          }   
+     
+     #current_logo{
+      width:45%;
+        display: block;
+        margin-top:10%;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     
+     #current_logo_title{
+      font-family: "Tangerine", serif;
+       text-align:center;
+       margin-left: auto;
+        margin-right: auto;
+      font-size:200%; 
+     } 
+     
+     #current_img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:55%;        
+     }
+     
+     #curr_name ,#artist_name{
+          text-align:center;
+       margin-left: auto;
+        margin-right: auto;
+       font-size:150%;
+       font-family: 'Langar', cursive;
+     }
+     
+     #artist_name{
+     font-family: 'Raleway', sans-serif;
+     }
+
+    @media only screen and (max-width : 929px){
+        #div4{
+            display:none;
+        }
+    }

@@ -1,0 +1,20 @@
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+.mid__upper  {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mid__upper__shuffleIcon {
+    fill:#56CDD3 !important;
+}
+.mid__upper__play {
+    height:3rem !important;
+    width: 3rem !important;
+}

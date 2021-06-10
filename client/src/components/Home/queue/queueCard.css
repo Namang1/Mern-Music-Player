@@ -1,0 +1,53 @@
+.queue__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+  /* background: linear-gradient(
+    to right top,
+    hsla(0, 0%, 90%, 0.1),
+    hsla(0, 0%, 100%, 0.025)
+  ); */
+  background: linear-gradient(
+    to right top,
+    hsla(29, 83%, 39%, 0.1),
+    hsla(27, 80%, 40%, 0.025)
+  ); 
+  box-shadow:  -5px -5px 5px 0 rgba(58, 58, 58, 0.3),10px 10px 10px 0 rgba(0,0,0,.2);
+  cursor: pointer;
+}
+.queue__card__img > img {
+  width: 7rem;
+}
+  .active{
+    /* background-color: orange; */
+    border-left : solid 5px #ff4e50;
+ }
+@media only screen and (max-width : 900px){
+  .queue__card {
+    height: 80px;
+  }
+  .queue__card__img > img {
+    width: 4rem;
+  }
+  .queueartist{
+    font-size: 1rem !important;
+  }
+  .queuesong{
+    font-size: 0.9rem !important;
+  }
+}
+@media only screen and (max-width : 350px){
+  .queue__card {
+    height: 70px;
+  }
+  .queue__card__img > img {
+    width: 2.4rem;
+  }
+  .queueartist{
+    font-size: 0.7rem !important;
+  }
+  .queuesong{
+    font-size: 0.5rem !important;
+  }
+}

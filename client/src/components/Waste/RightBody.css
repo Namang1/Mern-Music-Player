@@ -1,0 +1,35 @@
+.form {
+   width: 55%;
+}
+.inputField > input {
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  /* width: 90%; */
+  /* padding-left: 5%; */
+  font-size: large;
+  /* margin: 1.2rem 0; */
+  background-color: #0D0D0D;
+  border: 2px solid #322D2D;
+}
+.inputField > input::placeholder{
+  color:#908E8E;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+.button {
+  /* width: 100%; */
+}
+.button > input{
+   height:70px;
+   border-radius: 10px;
+   border: none;
+   outline: none;
+   background:linear-gradient(#54A7BC,#6DD5ED);
+   width: 100%;
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   margin-top: 10%;
+}

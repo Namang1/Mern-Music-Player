@@ -1,0 +1,11 @@
+.loginLeftBody {    
+    padding-left: 8rem;
+    padding-top: 15%;
+    background-color:#0D0D0D;
+}
+.loginLeftBody h1 {
+    color: #56CDD3;
+    font-size: 5.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}

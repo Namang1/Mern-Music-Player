@@ -1,0 +1,49 @@
+body{
+        background-color: rgb(16, 5, 26);
+}
+.volstyle{
+border:none;
+  height:10px;
+  width: 95%;
+  box-shadow: none;
+  appearance: none;
+  height:3px;
+  background: rgb(116, 52, 235);
+}
+.topnav{
+        background-color: rgb(16, 5, 26);
+        height: 5%;
+}
+.cendiv{
+        height: 85%;
+}
+.botdiv{
+        position: fixed;
+}
+.main-content{
+        overflow-x: hidden;
+        overflow-y: scroll;
+}
+@media only screen and (min-width : 480px){
+        .main-content{
+                margin-left: 12%;
+        }
+      }
+@media only screen and (min-width : 927px){
+        .main-content{
+                margin-left: 18%;
+        }
+      }      
+
+@media only screen and (max-width : 576px){
+        .volstyle{
+                width: 50%;
+                margin-left: 25%;
+        }
+        .vol{
+                justify-content: center;
+        }
+      }
+@media only screen and (max-width : 481px){
+
+      }      
