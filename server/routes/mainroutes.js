@@ -40,6 +40,8 @@ router.post('/register', function (req, res) {
   }
   })
 
+  //route control unit
+
 
   router.get('/auth/google', passport.authenticate('google',{scope : ['profile', 'email']}))
   router.get('/auth/google/redirect', 
@@ -59,10 +61,10 @@ router.post('/register', function (req, res) {
     else{
       let otp = (random.int((min = 123456), (max = 987654))+"")
       otpmail(user.email, user.username, otp)
-      req.logIn(user, err=>{
-                if (err) throw err;
-                console.log(user) })
-       res.send({email: user.email, code: 3, otp:otp})
+      // req.logIn(user, err=>{
+      //           if (err) throw err;
+      //           console.log(user) })
+      //  res.send({email: user.email, code: 3, otp:otp})
     }
   })(req, res, next)
 })
@@ -101,6 +103,7 @@ router.post('/register', function (req, res) {
     });
     }
   })
+
   
 
   
